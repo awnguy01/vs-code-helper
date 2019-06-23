@@ -1,0 +1,44 @@
+.list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid purple;
+}
+
+.list__buttons {
+  display: flex;
+  width: fit-content;
+  margin-left: auto;
+}
+
+.list__button--delete {
+  background-color: transparent;
+  border: 1px solid #f44336;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  margin-left: 0.5rem;
+}
+
+.list__button--delete:hover {
+  cursor: pointer;
+  background-color: #f44336;
+}
+
+.list__button--vscode {
+  background-color: transparent;
+  border: 1px solid #2196f3;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+
+.list__button--vscode:hover {
+  cursor: pointer;
+  background-color: #2196f3;
+}
